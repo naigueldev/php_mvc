@@ -26,14 +26,16 @@
 			$user->idade = $_POST['textIdade'];
 			$user->pasword = $_POST['pwdSenha'];
 
-			// echo "Usuário $user->user criado com sucesso!";
-			$sucesso = "Usuário $user->user criado com sucesso!";
-			require '../View/UserView.php';
+			echo "Usuário $user->user criado com sucesso!";
+			// $sucesso = "Usuário $user->user criado com sucesso!";
+			// require '../View/UserView.php';
 		}
 
 	}else{
-		$erro = "Informe todos os campos!";
-		require '../View/UserView.php';
+		echo "Informe todos os campos!";
+
+		// $erro = "Informe todos os campos!";
+		// require '../View/UserView.php';
 
 	}
  ?>
