@@ -21,7 +21,7 @@
 	<style type="text/css">
 
 		body {
-			padding-top: 70px;
+			padding-top: 130px;
 			padding-bottom: 30px;
 		}
 	</style>
@@ -104,12 +104,12 @@
 				</div>
 				<div class="form-group">
 					<label for="exampleInputEmail1">Email</label>
-					<input type="email" name="textEmail" class="form-control" id="exampleInputEmail1" placeholder="email@email.com">
+					<input type="email" name="textEmail" class="form-control" id="textEmail" placeholder="email@email.com">
 				</div>
 
 				<div class="form-group">
 					<label for="exampleInputEmail1">Idade</label>
-					<input type="text" name="textIdade" class="form-control" id="exampleInputEmail1" placeholder="Idade">
+					<input type="text" name="textIdade" class="form-control" id="textIdade" placeholder="Idade">
 				</div>
 
 				<div class="form-group">
@@ -127,6 +127,7 @@
 	</div>
 
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 

@@ -24,18 +24,15 @@
 			$user->nome = $_POST['textNome'];
 			$user->sobrenome = $_POST['textSobrenome'];
 			$user->idade = $_POST['textIdade'];
-			$user->pasword = $_POST['pwdSenha'];
+			$user->password = $_POST['pwdSenha'];
 
-			echo "Usuário $user->user criado com sucesso!";
-			// $sucesso = "Usuário $user->user criado com sucesso!";
-			// require '../View/UserView.php';
+			$sucesso = "Usuário $user->user criado com sucesso!";
+			require '../View/UserView.php';
 		}
 
 	}else{
-		echo "Informe todos os campos!";
-
-		// $erro = "Informe todos os campos!";
-		// require '../View/UserView.php';
+		$erro = "Informe todos os campos!";
+		require '../View/UserView.php';
 
 	}
  ?>

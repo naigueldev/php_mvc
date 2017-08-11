@@ -4,7 +4,7 @@
         private $nome;
         private $sobrenome;
         private $idade;
-        private $pasword;
+        private $password;
         private $email;
 
         // metodos para atribuir/buscar valores das propriedades
