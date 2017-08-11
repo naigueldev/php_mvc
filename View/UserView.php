@@ -21,7 +21,7 @@
 	<style type="text/css">
 
 		body {
-			padding-top: 130px;
+			padding-top: 60px;
 			padding-bottom: 30px;
 		}
 	</style>
@@ -74,7 +74,6 @@
 
 
 		<div class="jumbotron">
-		<? $erro = "Nada" ?>
 		<?php if (isset($erro)) { ?>
 		<div class="alert alert-danger">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>

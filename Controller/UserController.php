@@ -27,23 +27,24 @@ if ( (!empty($_POST['textUser'])) &&
 		$user->email = $_POST['textEmail'];
 		$user->password = $_POST['pwdSenha'];
 
-		$variavel = "variavel";
-		echo "<script>console.log( 'Debug Object:".$variavel." ' );</script>";
 
+		$sucesso = "Usuário $user->user criado com sucesso!";
 		header("location:../View/UserViewResult.php?".
 			"user=$user->user&".
 			"mail=$user->email");
-			// $sucesso = "Usuário $user->user criado com sucesso!";
 			// require '../View/UserView.php';
 	}else{
 		$err = serialize($erros);
 		header("location:../View/UserViewError.php?".
 			"erros=$err");
 
-	// $erro = "Informe todos os campos!";
-	// require '../View/UserView.php';
 
 	}
+
+}else{
+
+	$erro = "Informe todos os campos!";
+	require '../View/UserView.php';
 
 }
 ?>
