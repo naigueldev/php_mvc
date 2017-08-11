@@ -92,15 +92,15 @@
 			<form action="../Controller/UserController.php" method="post" name="cadUser">
 				<div class="form-group">
 					<label for="exampleInputEmail1">Usuário</label>
-					<input type="text" name="textUser" class="form-control" id="exampleInputEmail1" placeholder="Usuário">
+					<input type="text" name="textUser" class="form-control" id="textUser" placeholder="Usuário">
 				</div>
 				<div class="form-group">
 					<label for="exampleInputEmail1">Nome</label>
-					<input type="text" name="textNome" class="form-control" id="exampleInputEmail1" placeholder="Nome">
+					<input type="text" name="textNome" class="form-control" id="textNome" placeholder="Nome">
 				</div>
 				<div class="form-group">
 					<label for="exampleInputEmail1">Sobrenome</label>
-					<input type="text" name="textSobrenome" class="form-control" id="exampleInputEmail1" placeholder="Sobrenome">
+					<input type="text" name="textSobrenome" class="form-control" id="textSobrenome" placeholder="Sobrenome">
 				</div>
 				<div class="form-group">
 					<label for="exampleInputEmail1">Email</label>
@@ -114,7 +114,7 @@
 
 				<div class="form-group">
 					<label for="exampleInputPassword1">Senha</label>
-					<input type="password" name="pwdSenha" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					<input type="password" name="pwdSenha" class="form-control" id="pwdSenha" placeholder="Password">
 				</div>
 				<div class="text-center">
 					
